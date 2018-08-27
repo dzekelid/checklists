@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Trello
 x-complete: 1
@@ -902,4 +901,3 @@ paths:
       - Checklistcurrent
       - Checkitem
       - Checkitem
----

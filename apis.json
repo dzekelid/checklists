@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Checklists",
+	"description": "This is a repository of checklists APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/checklists.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://checklists.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Trello",
+			"x-api-slug": "trello",
+			"description": "Trusted by millions, Trello is the visual collaboration tool that creates a shared perspective on any project. Trello&rsquo;s boards, lists and cards enable you to organize and prioritize your personal and work life in a fun, flexible and rewarding way.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png",
+			"humanURL": "http://trello.com",
+			"baseURL": "https://trello.com//1",
+			"tags": "Checklists",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/checklists/master/_listings/trello/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Checklists",
+	"include": [
+		{
+			"name": "Trello",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/checklists/master/_listings/trello/apis.yaml"
+		}
+	]
+}
